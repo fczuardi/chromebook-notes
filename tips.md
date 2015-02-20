@@ -8,6 +8,15 @@ To display all keyboard shortcuts on screen just type:
 
     ctrl+alt+/
 
+Change the channel between stable, beta and dev
+-----------------------------------------------
+
+On the location bar, type:
+
+    chrome:help
+
+Click on **more info** link and find the proper button.
+
 Crosh terminal (for ssh)
 ------------------------
 
