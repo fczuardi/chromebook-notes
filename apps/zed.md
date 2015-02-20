@@ -9,6 +9,8 @@ Very simple github integration, you setup the github authorization on the open n
     ctrl+.
     commit (Version Control: Commit)
 
+Type your commit message and then ```ctrl+shift+c```
+
 It will allways add everything.
 
 Useful plugins
