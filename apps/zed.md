@@ -19,3 +19,9 @@ Useful plugins
 - Github markdown preview
     - useful to preview markdown documents with tables 
     - https://github.com/akoenig/zed-gfm-preview 
+    - 
+
+Fullscreen
+----------
+
+The shortcut for fullscreen on zed is F11, which in the chromebook keyboard is accessed with ```searchButton + -``` (other f-keys are search+1..0, - and + for f11 and f12)
