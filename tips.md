@@ -17,6 +17,11 @@ On the location bar, type:
 
 Click on **more info** link and find the proper button.
 
+Make shortcuts for pages
+------------------------
+
+- http://blog.laptopmag.com/how-to-add-custom-shortcuts-to-your-chromebook-app-launcher
+
 Crosh terminal (for ssh)
 ------------------------
 
