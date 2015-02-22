@@ -1,4 +1,4 @@
-Chrome Extentions
+Chrome Extensions
 =================
 
 - [ublock][ublock]
