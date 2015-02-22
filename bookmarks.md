@@ -1,3 +1,5 @@
+https://s3.amazonaws.com/isby/lenovopartnernetwork.com/upload/4/docs/datasheet-lenovo-n21-chromebook.pdf
+
 http://www.chromium.org/chromium-os/developer-guide#TOC-Getting-your-image-running-on-a-Chr
 
 http://synack.me/blog/an-engineers-take-on-chrome-os
