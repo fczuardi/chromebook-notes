@@ -21,7 +21,7 @@ Make shortcuts for pages
 ------------------------
 
 - http://blog.laptopmag.com/how-to-add-custom-shortcuts-to-your-chromebook-app-launcher
-- on the beta channel there is a chrome:flag named ```chrome://flags/#enable-new-bookmark-apps```
+
 
 Crosh terminal (for ssh)
 ------------------------
