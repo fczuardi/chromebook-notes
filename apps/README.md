@@ -12,10 +12,17 @@ Here is the list of my essential apps:
 Nice apps
 ---------
 
- - [Whiteout][whiteout] (email)
- - [Telegram][telegram] (instant messaging)
+### Email
+ - [Whiteout][whiteout]
+
+### Instant Messaging
+ - [Telegram][telegram]
+ - [Hangouts][hangouts]
+
+### SSH
  - [Secure Shell][secureshell]
 
+[hangouts]: 
 [secureshell]: https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo
 [telegram]: https://telegram.org/
 [whiteout]: https://whiteout.io/
