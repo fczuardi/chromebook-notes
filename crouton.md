@@ -12,6 +12,12 @@
 ### Firefox 35
 
     sudo apt-get install firefox
+    
+As with any new firefox installation, the first thing you should do is to fix the ridiculous minimum tab-with default and get rid of the atrocious tab-scroll (aka worst user interface ever invented).
+- install this addon https://addons.mozilla.org/en-Us/firefox/addon/custom-tab-width/
+    - restart
+    - open addons page ```about:addons```
+    - set min width to 1px
 
 ### XFCE4-terminal (a better terminal that supports copy/paste)
 
