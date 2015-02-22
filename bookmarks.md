@@ -1,3 +1,5 @@
+http://www.chromium.org/chromium-os/developer-guide#TOC-Getting-your-image-running-on-a-Chr
+
 http://synack.me/blog/an-engineers-take-on-chrome-os
 
 Thursday, Feb 19, 2015 5:18 PM Fabricio C Zuardi wrote:
