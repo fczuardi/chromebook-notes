@@ -19,6 +19,10 @@ As with any new firefox installation, the first thing you should do is to fix th
     - open addons page ```about:addons```
     - set min width to 1px
 
+### Thunar File manager
+
+    sudo apt-get install thunar
+
 ### XFCE4-terminal (a better terminal that supports copy/paste)
 
     sudo apt-get install xfce4-terminal
@@ -36,6 +40,11 @@ As with any new firefox installation, the first thing you should do is to fix th
     nvm
     nvm install iojs
     node --version
+
+### Standalone zed
+
+    sudo apt-get install zip
+    
 
 ### Git GUI
 
