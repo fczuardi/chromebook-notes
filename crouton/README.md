@@ -27,9 +27,19 @@ As with any new firefox installation, the first thing you should do is to fix th
 
     sudo apt-get install xfce4-terminal
 
-### Git, Curl
+### Git
 
     sudo apt-get install git
+    git config --global user.email "email@example.com"
+    git config --global user.name "Your Name"
+
+### Git GUI
+
+    sudo apt-get install git-gui
+    git gui
+
+### Curl
+
     sudo apt-get install curl
 
 ### NVM and iojs
@@ -40,8 +50,3 @@ As with any new firefox installation, the first thing you should do is to fix th
     nvm
     nvm install iojs
     node --version
-
-### Git GUI
-
-    sudo apt-get install git-gui
-    git citool
