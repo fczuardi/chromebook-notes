@@ -28,7 +28,6 @@ As with any new firefox installation, the first thing you should do is to fix th
     sudo apt-get install git
     sudo apt-get install curl
 
-
 ### NVM and iojs
 
     sudo apt-get install build-essential
@@ -38,3 +37,7 @@ As with any new firefox installation, the first thing you should do is to fix th
     nvm install iojs
     node --version
 
+### Git GUI
+
+    sudo apt-get install git-gui
+    git citool
