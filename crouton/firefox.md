@@ -2,8 +2,8 @@ Firefox
 =======
 
 Ubuntu trusty has the **Firefox 35** on the package manager, and other versions
-such as nightly or Developer Edition aren't available for download for the ARM 
-(armhf) architecture :(
+such as nightly or Developer Edition aren't build by Mozilla for the ARM 
+(armhf) architecture, so they don't publish in the website or ftp :(
 
     sudo apt-get install firefox
 
