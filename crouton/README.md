@@ -12,11 +12,9 @@
 
     sudo edit-chroot -b chrootname 
 
-### Break backup into smaller pieces (for cloud uploading, plyio)
+### Backup splitted in smaller files (190M) of a chroot in a different path
 
-    split -b 190M -d -a 3 foo foo
-    
-See http://unix.stackexchange.com/a/1589
+    sudo edit-chroot -b -c /media/removable/FabricioZuardi/ -s 190 trusty
 
 ### Chromium browser
 
