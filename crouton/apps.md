@@ -1,13 +1,21 @@
 Linux apps and tools
 ====================
 
+Browsers
+--------
+
 ### Chromium browser
+
+Also available as a crouton target: ```-t chromium```
 
     sudo apt-get install chromium-browser
 
 ### Firefox 35
 
 See ```crouton/firefox.md```
+
+Desktop tools
+-------------
 
 ### Thunar File manager
 
@@ -16,6 +24,9 @@ See ```crouton/firefox.md```
 ### XFCE4-terminal (a better terminal that supports copy/paste)
 
     sudo apt-get install xfce4-terminal
+
+Development
+-----------
 
 ### Git
 
