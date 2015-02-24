@@ -5,6 +5,19 @@
     sudo apt-get install i3
     echo "exec i3" > ~/.xinitrc
 
+
+## Backup
+
+### Create a chroot backup using crouton
+
+    sudo edit-chroot -b chrootname 
+
+### Break backup into smaller pieces (for cloud uploading, plyio)
+
+    split -b 190M -d -a 3 foo foo
+    
+See http://unix.stackexchange.com/a/1589
+
 ### Chromium browser
 
     sudo apt-get install chromium-browser
