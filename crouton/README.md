@@ -1,11 +1,5 @@
 #Crouton
 
-##Install ubuntu trusty with i3
-
-    sudo apt-get install i3
-    echo "exec i3" > ~/.xinitrc
-
-
 ## Backup
 
 ### Create a chroot backup using crouton
