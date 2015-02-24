@@ -1,6 +1,8 @@
 Crouton
 =======
 
+Check https://github.com/dnschneid/crouton and https://github.com/dnschneid/crouton/wiki for documentation.
+
 chroot jails
 ------------
 
@@ -39,9 +41,9 @@ Backup
 
 ### Save on USB
 
-To save a backup in the USB Drive instead of the Downloads folder:
+To save a backup in the USB Drive instead of the Downloads folder use ```-f path/to/destinationfolder```:
 
-```sudo edit-chroot -f /path/to/folder -b nameofchroot```
+```sudo edit-chroot -b trustyx11 -c /media/removable/FabricioZuardi/chroots -f /media/removable/FabricioZuardi/backups/```
 
 
 Shared home folder between multiple chroots
