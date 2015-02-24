@@ -2,15 +2,15 @@ Firefox
 =======
 
 Ubuntu trusty has the **Firefox 35** on the package manager, and other versions
-such as nightly or Developer Edition aren't available for download for the ARM 
-(armhf) architecture :(
+such as nightly or Developer Edition aren't build by Mozilla for the ARM 
+(armhf) architecture, so they don't publish in the website or ftp :(
 
     sudo apt-get install firefox
 
 Fix the tabscroll ugly and useless UI
 -------------------------------------
 
-As with any new firefox installation, the first thing you should do is to fix the ridiculous minimum tab-with default and get rid of the atrocious tab-scroll (aka worst user interface ever invented).
+As with any new firefox installation, the first thing you should do is to fix the ridiculous minimum tab-width default and get rid of the atrocious tab-scroll (aka worst user interface ever invented).
 - install this addon https://addons.mozilla.org/en-Us/firefox/addon/custom-tab-width/
     - restart
     - open addons page ```about:addons```
