@@ -1,3 +1,5 @@
+https://blog.mozilla.org/mjrosenb/2012/11/13/building-an-running-the-js-shell-for-arm/
+
 https://s3.amazonaws.com/isby/lenovopartnernetwork.com/upload/4/docs/datasheet-lenovo-n21-chromebook.pdf
 
 http://www.chromium.org/chromium-os/developer-guide#TOC-Getting-your-image-running-on-a-Chr
