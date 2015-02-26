@@ -47,7 +47,9 @@ Development
 
     sudo apt-get install build-essential
     sudo apt-get install libssl-dev
+    sudo apt-get install curl
     curl https://raw.githubusercontent.com/creationix/nvm/v0.23.3/install.sh | bash
+    source ~/.bashrc
     nvm
     nvm install iojs
     node --version
