@@ -21,9 +21,9 @@ Desktop tools
 
     sudo apt-get install thunar
 
-### XFCE4-terminal (a better terminal that supports copy/paste)
+### LXTerminal
 
-    sudo apt-get install xfce4-terminal
+    sudo apt-get install lxterminal
 
 Development
 -----------
@@ -33,9 +33,7 @@ Development
     sudo apt-get install git
     git config --global user.email "email@example.com"
     git config --global user.name "Your Name"
-    # if git pull fast forward use default message and dont open an editor
-    git config --global core.mergeoptions --no-edit
-    
+
 ### Git GUI
 
     sudo apt-get install git-gui

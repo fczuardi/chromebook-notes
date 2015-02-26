@@ -28,6 +28,7 @@ Example:
     sudo sh crouton -f /media/removable/FabricioZuardi/backups/trusty.tar.bz2 -t x11 -n trustyx11 -p /media/removable/FabricioZuardi/
     # enter the trustyx11 chroot located at the USB Drive
     sudo enter-chroot -c /media/removable/FabricioZuardi/chroots -n trustyx11    
+
 Backup
 ------
 
