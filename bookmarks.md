@@ -1,3 +1,5 @@
+https://gitlab.com/rasch/dotfiles/commit/f84d9a7ae10fb42403ab1725f0adfc5cb82f291a
+
 https://blog.mozilla.org/mjrosenb/2012/11/13/building-an-running-the-js-shell-for-arm/
 
 https://s3.amazonaws.com/isby/lenovopartnernetwork.com/upload/4/docs/datasheet-lenovo-n21-chromebook.pdf
