@@ -93,9 +93,11 @@ export SSH_AUTH_SOCK
 Launching Graphical apps on the host (chromeOS) window manager
 ---------------------------------------------------------------
 
-About Aura: 
+About Aura and Ash: 
 - http://www.chromium.org/developers/design-documents/aura
 - http://www.chromestory.com/2012/04/aura-and-ash-in-chrome-os-what-are-they/
+- http://www.slideshare.net/gnomekr/chromium-ui-frameworkshared
+
 
 ### XEyes (and other x-apps)
 
