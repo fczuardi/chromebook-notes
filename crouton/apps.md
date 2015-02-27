@@ -77,8 +77,60 @@ export SSH_AUTH_SOCK
     sudo apt-get install build-essential
     sudo apt-get install libssl-dev
     sudo apt-get install curl
+    sudo apt-get install build-essential libssl-dev curl
     curl https://raw.githubusercontent.com/creationix/nvm/v0.23.3/install.sh | bash
     source ~/.bashrc
     nvm
     nvm install iojs
     node --version
+
+### Linux tips
+
+#### find your IP address
+
+    ip addr show
+
+Launching Graphical apps on the host (chromeOS) window manager
+---------------------------------------------------------------
+
+About Aura: 
+- http://www.chromium.org/developers/design-documents/aura
+- http://www.chromestory.com/2012/04/aura-and-ash-in-chrome-os-what-are-they/
+
+### XEyes (and other x-apps)
+
+    sudo apt-get install x11-apps
+
+### host-x11
+
+Shortcut for setting DISPLAY=':0' and XAUTHORITY='/var/host/XAuthority':
+
+    $ host-x11
+    $ host-x11 xterm
+    $ host-x11 xeyes
+    
+### Using Linux Window Managers With ChromeOS X11!!
+
+    Save space by not installing x11 on the chroot :P
+
+    sudo apt-get install tinywm
+    host-x11 tinywm&
+    # alt+left_click = move, alt+ right_click = resize
+    jobs
+    fg 1
+    # ctrl+c to kill
+    
+
+    sudo apt-get install fluxbox
+    host-x11 fluxbox&
+
+
+    sudo apt-get install i3
+    host-x11 i3&
+    # victory!
+    
+    
+    
+    
+
+
