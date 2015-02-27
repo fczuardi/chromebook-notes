@@ -97,6 +97,8 @@ About Aura and Ash:
 - http://www.chromium.org/developers/design-documents/aura
 - http://www.chromestory.com/2012/04/aura-and-ash-in-chrome-os-what-are-they/
 - http://www.slideshare.net/gnomekr/chromium-ui-frameworkshared
+- https://code.google.com/p/chromium/issues/detail?id=319629
+    - https://code.google.com/p/chromium-wm/
 
 
 ### XEyes (and other x-apps)
@@ -110,10 +112,14 @@ Shortcut for setting DISPLAY=':0' and XAUTHORITY='/var/host/XAuthority':
     $ host-x11
     $ host-x11 xterm
     $ host-x11 xeyes
-    
+
+### copy / paste between chromeOS apps and hosted-x11 apps
+
+
+
 ### Using Linux Window Managers With ChromeOS X11!!
 
-    Save space by not installing x11 on the chroot :P
+Save space by not installing x11 on the chroot :P
 
     sudo apt-get install tinywm
     host-x11 tinywm&
@@ -132,7 +138,16 @@ Shortcut for setting DISPLAY=':0' and XAUTHORITY='/var/host/XAuthority':
     # victory!
     
     
-    
-    
+### the boring / bloated way (use xiwi and the chrome extension)
+
+Another way that allows a chroot x session inside an Ash window in the host (gives you exposê keyboard button support).
+
+- xiwi-app branch https://github.com/dnschneid/crouton/tree/xiwi-app
+    - if inside chroot use ```xiwi xterm```
+    - can be launched when entering chroot with ```-b xiwi``` and the app
+        - see https://github.com/dnschneid/crouton/blob/ca0d8ca11047ad88a0f6c84e7f44d0720d64991e/targets/xiwi#L404
+    - uses ratpoison as the window manager with the following keyboard binds: 
+        - Ctrl+Alt+Tab, Ctrl+Alt+Shift+Tab, Ctrl+Shif+Escape+Escape shortcuts
+        - see https://github.com/dnschneid/crouton/commit/c22ca4591a9cdbb12dc76bff14ad58ff478c6231
 
 
