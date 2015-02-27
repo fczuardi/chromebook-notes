@@ -39,6 +39,35 @@ Development
     sudo apt-get install git-gui
     git gui
 
+
+### Remember ssh keys passwords
+
+#### with keychain
+
+    sudo apt-get install keychain
+    nano ~/.xinitrc
+    
+http://blog.kylemanna.com/linux/2014/07/10/use-funtoos-keyhain-insetad-of-gnome-keyring/
+
+```
+eval $(keychain --eval --quiet)
+```    
+
+And use ```keychain ~/.ssh/your_key``` when you want to use it
+
+    
+#### with gnome-keyring
+
+    sudo apt-get install gnome-keyring
+    nano ~/.xinitrc
+    
+https://wiki.archlinux.org/index.php/GNOME_Keyring#xinitrc_method
+
+```
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+export SSH_AUTH_SOCK
+
+```
 ### Curl
 
     sudo apt-get install curl

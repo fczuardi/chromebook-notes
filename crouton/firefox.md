@@ -28,3 +28,14 @@ Then, to remove tabbar clutter, create a folder named ```chrome``` on your Firef
 }
 ```
 
+
+Fonts
+---------------------------
+
+    sudo apt-get install vl-gothic
+    sudo apt-get install fonts-roboto
+
+(vl-gothic is for displaying japanese chars on firefox)
+
+
+
