@@ -25,6 +25,10 @@ Desktop tools
 
     sudo apt-get install lxterminal
 
+### killall
+
+    sudo apt-get install psmisc
+
 Development
 -----------
 
