@@ -88,6 +88,19 @@ export SSH_AUTH_SOCK
     nvm install iojs
     node --version
 
+### Raise NPM loglevel level config (to see what happens instead of a spinner on npm installs)
+
+    npm config set loglevel=http
+
+
+### Text editors
+
+#### Slap
+
+- https://github.com/slap-editor/slap
+
+    npm install -g slap
+
 ### Linux tips
 
 #### find your IP address
@@ -144,7 +157,7 @@ Save space by not installing x11 on the chroot :P
     
 ### the boring / bloated way (use xiwi and the chrome extension)
 
-Another way that allows a chroot x session inside an Ash window in the host (gives you exposê keyboard button support).
+Another way that allows a chroot x session inside an Ash window in the host (gives you exposÃª keyboard button support).
 
 - xiwi-app branch https://github.com/dnschneid/crouton/tree/xiwi-app
     - if inside chroot use ```xiwi xterm```
