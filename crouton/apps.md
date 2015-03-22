@@ -43,6 +43,10 @@ Development
     sudo apt-get install git-gui
     git gui
 
+To make it ignore white spaces follow this tip http://stackoverflow.com/a/22890947
+
+> Edit->Options. In "Additional Diff Parameters" put -w (or --ignore-all-space).
+
 
 ### Remember ssh keys passwords
 
